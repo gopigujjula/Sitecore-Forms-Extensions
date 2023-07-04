@@ -67,24 +67,45 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Win32.Primitives" />
     <Reference Include="Sitecore.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Mvc.9.3.0\lib\net471\Sitecore.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Mvc.Analytics, Version=16.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\packages\Sitecore.Mvc.Analytics.10.1.0\lib\net48\Sitecore.Mvc.Analytics.dll</HintPath>
+    <Reference Include="Sitecore.Mvc.Analytics, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.Analytics.10.3.0\lib\net48\Sitecore.Mvc.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="System.AppContext" />
+    <Reference Include="System.Console" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Diagnostics.Tracing" />
+    <Reference Include="System.Globalization.Calendars" />
+    <Reference Include="System.IO" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.ZipFile" />
+    <Reference Include="System.IO.FileSystem" />
+    <Reference Include="System.IO.FileSystem.Primitives" />
     <Reference Include="System.Linq" />
+    <Reference Include="System.Linq.Expressions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Sockets" />
+    <Reference Include="System.Reflection" />
     <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.Security.Cryptography.Algorithms" />
+    <Reference Include="System.Security.Cryptography.Encoding" />
+    <Reference Include="System.Security.Cryptography.Primitives" />
+    <Reference Include="System.Security.Cryptography.X509Certificates" />
+    <Reference Include="System.Text.RegularExpressions" />
     <Reference Include="System.Threading.Thread" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml.ReaderWriter" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
